@@ -67,6 +67,8 @@ hr {
     color: white;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
 .linkf {
@@ -102,7 +104,10 @@ footer img {
     padding-bottom: 10px;
     border-radius: 20px;
 }
-
+.pk-neon{
+    height: 700px;
+    max-width: 1200px;
+}
 .photo-pk {
     text-align: center;
 }
@@ -366,7 +371,21 @@ footer {
     padding: 25px;
     margin-right: 460px;
     text-align: center;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
+
+.nav-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
 
 .under100-1 {
     text-decoration: none;
